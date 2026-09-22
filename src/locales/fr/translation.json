@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "news": "Actualités",
+    "investments": "Investissements",
+    "tourism": "Tourisme",
+    "projects": "Projets",
+    "media": "Médiathèque",
+    "complaints": "Plaintes",
+    "contact": "Contact",
+    "more": "Plus",
+    "language": "Langue",
+    "emergency_call": "Urgence"
+  },
+  "common": {
+    "under_construction": "Cette page est en cours de développement."
+  }
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #16536b;
+  --color-navy-light: #206d8c;
+  --color-navy-dark: #0d3b4c;
+  
+  --color-royal: #ff6b6b;
+  --color-royal-light: #ff8e8e;
+  --color-royal-dark: #e64a4a;
+  
+  --color-gold: #ffcc33;
+  --color-gold-light: #ffd65c;
+  --color-gold-dark: #e6b82e;
+  
+  --font-cairo: "Cairo", sans-serif;
+  --font-ibm: "IBM Plex Sans Arabic", sans-serif;
+}
+
+@layer base {
+  * {
+    font-family: 'Cairo', sans-serif !important;
+  }
+
+  html {
+    font-size: 15px;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply bg-white text-navy;
+    direction: rtl;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .glass-nav {
+    @apply bg-white/80 backdrop-blur-md border-b border-gray-100;
+  }
+  
+  .premium-card {
+    @apply bg-white rounded-2xl shadow-sm border border-gray-100 transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .bg-singing {
+    background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%);
+  }
+
+  .text-vibrant {
+    background: linear-gradient(to right, var(--color-navy), var(--color-royal));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .section-padding {
+    @apply py-12 lg:py-16;
+  }
+}
+
+/* Custom transitions */
+.transition-premium {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-navy);
+  border-radius: 5px;
+  border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-royal);
+}
+
+/* Firefox Support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-navy) #f1f1f1;
+}
+
+/* Prevent browser Autofill from turning inputs yellowish */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--color-navy) !important;
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important; /* Force pure white background */
+  transition: background-color 5000s ease-in-out 0s;
+}

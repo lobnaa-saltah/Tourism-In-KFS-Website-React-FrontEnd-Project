@@ -1,0 +1,127 @@
+.program-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.program-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+}
+
+/* ── Image ── */
+.program-card__image-wrapper {
+  position: relative;
+  height: 192px;
+  overflow: hidden;
+  background: #e5e7eb;
+}
+
+.program-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.4s, transform 0.5s;
+}
+
+.program-card__image--loaded {
+  opacity: 1;
+}
+
+.program-card:hover .program-card__image--loaded {
+  transform: scale(1.05);
+}
+
+.program-card__image-skeleton {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #e5e7eb 25%, #f3f4f6 50%, #e5e7eb 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s infinite;
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ── Badge ── */
+.program-card__badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #10b981;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+}
+
+/* ── Body ── */
+.program-card__body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+}
+
+.program-card__title {
+  font-weight: 800;
+  font-size: 1rem;
+  color: #102A4C;
+  margin: 0 0 8px;
+  line-height: 1.4;
+}
+
+.program-card__desc {
+  font-size: 0.75rem;
+  color: #6b7280;
+  line-height: 1.7;
+  flex: 1;
+  margin: 0 0 20px;
+}
+
+/* ── Button ── */
+.program-card__btn {
+  width: 100%;
+  background: #1F6BFF;
+  color: #fff;
+  font-weight: 800;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  font-size: 0.875rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background 0.3s, box-shadow 0.3s;
+  font-family: inherit;
+}
+
+.program-card__btn:hover:not(.program-card__btn--disabled) {
+  background: #1a5ce6;
+  box-shadow: 0 4px 12px rgba(31, 107, 255, 0.3);
+}
+
+.program-card__btn--disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.program-card__btn-icon {
+  transform: rotate(180deg);
+}

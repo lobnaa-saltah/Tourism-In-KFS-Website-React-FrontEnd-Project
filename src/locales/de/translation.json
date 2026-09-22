@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienste",
+    "news": "Nachrichten",
+    "investments": "Investitionen",
+    "tourism": "Tourismus",
+    "projects": "Projekte",
+    "media": "Medienzentrum",
+    "complaints": "Beschwerden",
+    "contact": "Kontakt",
+    "more": "Mehr",
+    "language": "Sprache",
+    "emergency_call": "Notruf"
+  },
+  "common": {
+    "under_construction": "Diese Seite befindet sich im Aufbau."
+  }
+}

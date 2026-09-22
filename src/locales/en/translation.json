@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "news": "News",
+    "investments": "Investments",
+    "tourism": "Tourism",
+    "projects": "Projects",
+    "media": "Media Center",
+    "complaints": "Complaints",
+    "contact": "Contact",
+    "more": "More",
+    "language": "Language",
+    "emergency_call": "Emergency",
+    "about_sub": {
+      "info": "About KFS",
+      "message": "Governor Message",
+      "leaders": "Leadership",
+      "map": "KFS Map"
+    },
+    "leaders": {
+      "governor": "Governor",
+      "deputy": "Deputy Governor",
+      "secretary": "Secretary General",
+      "assistant": "Asst. Secretary General"
+    }
+  },
+  "hero": {
+    "welcome": "Welcome to the Unified Digital Portal",
+    "title_part1": "Future of",
+    "title_part2": "Kafr El Sheikh",
+    "subtitle": "Towards a smart and sustainable society providing world-class government services with ease and security.",
+    "cta": "Get Started",
+    "learn_more": "About Governorate",
+    "services": {
+      "traffic": "Traffic Services",
+      "supply": "Supply",
+      "complaints": "Complaints",
+      "all": "All Services"
+    }
+  },
+  "services": {
+    "label": "Smart Services",
+    "title": "Government Services Portal",
+    "subtitle": "We provide an integrated set of digital services to facilitate your daily transactions securely.",
+    "search_placeholder": "Search for a service...",
+    "more": "Start Service",
+    "cat": {
+      "all": "All",
+      "personal": "Personal",
+      "business": "Business",
+      "visitor": "Visitor"
+    }
+  },
+  "governor": {
+    "label": "Governor's Message",
+    "title": "Working for a better future for every citizen",
+    "name": "Gen. Dr. Alaa Abdel Moaty",
+    "role": "Governor of Kafr El Sheikh",
+    "p1": "Our vision for Kafr El Sheikh stems from our deep belief in the capabilities of its people.",
+    "p2": "We put the citizen at the heart of every decision we make."
+  },
+  "stats": {
+    "area": "Total Area (km²)",
+    "population": "Population (Million)",
+    "cities": "Cities & Centers",
+    "investments": "Investment Opp."
+  },
+  "projects": {
+    "label": "National Achievements",
+    "title": "Giant National Projects",
+    "subtitle": "Showcasing the most important projects contributing to the renaissance of the governorate.",
+    "details": "Project Details",
+    "completed": "Completed",
+    "cat": {
+      "food": "Food Security",
+      "industry": "Heavy Industry",
+      "health": "Healthcare"
+    }
+  },
+  "news": {
+    "label": "Media Center",
+    "title": "Latest Updates & Events",
+    "view_all": "View All News",
+    "newsletter": "Subscribe to Newsletter",
+    "newsletter_desc": "Be the first to know about the latest news and important decisions.",
+    "email": "Email Address",
+    "subscribe": "Subscribe"
+  },
+  "tourism": {
+    "label": "Discover Kafr El Sheikh",
+    "title": "The Delta's Pearl",
+    "subtitle": "Explore the beauty of nature and historical monuments that make KFS a unique destination.",
+    "explore": "Explore More",
+    "view_all": "Explore All Destinations"
+  },
+  "invest": {
+    "label": "Investment Opportunities",
+    "title": "Invest in Egypt's Digital Future",
+    "subtitle": "KFS provides promising opportunities in industry, agriculture, and tourism.",
+    "cta": "Investment Map",
+    "guide": "Investor Guide"
+  },
+  "contact": {
+    "label": "Contact Us",
+    "title": "We are here to listen",
+    "success": "Sent Successfully",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "portal": "Unified Digital Portal",
+    "desc": "Official digital platform of Kafr El Sheikh Governorate providing government services.",
+    "sections": {
+      "gov": "Gov Links",
+      "services": "Services",
+      "contact": "Contact Us"
+    },
+    "governorate_title": "Kafr El Sheikh Governorate",
+    "portal_subtitle": "Digital Portal"
+  },
+  "common": {
+    "under_construction": "This page is currently under development as part of our comprehensive digital transformation."
+  },
+  "events": {
+    "title": "Key Events",
+    "subtitle": "Follow the latest official events and decisions in Kafr El Sheikh",
+    "view_all": "View All Events",
+    "ai": {
+      "title": "Protect Yourself Series: Using AI with Caution"
+    },
+    "rights": {
+      "title": "National Human Rights Strategy 2021-2026"
+    },
+    "sdgs": {
+      "title": "Localization of Sustainable Development Goals in KFS"
+    },
+    "fuwah": {
+      "title": "Fuwa: Where History Meets Creativity"
+    },
+    "tasaloh": {
+      "title": "Apply for Building Violation Reconciliation"
+    },
+    "investment": {
+      "title": "Citizen Investment Plan for KFS 2024 / 2025"
+    }
+  },
+  "news": {
+    "title": "Latest News",
+    "subtitle": "Daily updates highlighting the latest news and activities of the governorate.",
+    "view_all": "View All News",
+    "category": {
+      "gov": "Gov News"
+    },
+    "item1": {
+      "title": "The new Governor of Kafr El Sheikh arrives at the General Diwan...",
+      "date": "2 months ago"
+    },
+    "item2": {
+      "title": "Governor of KFS follows the activities of 'Beautiful KFS' initiative",
+      "date": "2 days ago"
+    },
+    "item3": {
+      "title": "Governor of KFS: 361 kg of food items of unknown origin seized",
+      "date": "2 days ago"
+    }
+  }
+}
